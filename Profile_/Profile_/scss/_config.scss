@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Urbanist:wght@500;700&display=swap');
+
+//Variables
+$black-color: #031332;  
+$white-color:#FFFFFF;   
+$orange-color: #FD7411;  
+$blue-color:#2871FF; 
+$heading-font-family: 'Montserrat', sans-serif;
+$text-font-family:'Urbanist', sans-serif;
+
+$primary-font: 'Monsterrat', sans-serif;
+$secondary-font: 'Urbanist', sans-serif;
+$primary-color: #fff;
+$secondary-color: #FD7411;
+$tertiary-color: #000;
+
+$color_1: #031332;
+$color_2: black;
+$color_3: rgba(217, 217, 217, 1);
+$color_4: var(--text-dark, #031332);
+$font-family_1: Montserrat;
+$background-color_1: rgb(255, 255, 255,1);
+$background-color_2: rgba(217, 217, 217, 1);
+$background-color_3: black;
+
+
+$font-weight: (
+   "700": 700,
+   "600": 600,
+   "500": 500,
+   "400": 400
+);
+
+$font-size: ( 
+   heading1: 64px,
+   heading2: 40px,
+   heading3: 32px,
+   heading4: 24px,
+   heading5: 22px,
+   text1: 20px,
+   text2: 18px,
+   text3: 16px
+);
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   width: auto;
+}

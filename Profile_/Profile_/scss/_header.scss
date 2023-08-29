@@ -1,0 +1,92 @@
+/*.home{
+   .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: none;
+      padding: 20px 80px;
+      width: 100%;
+      z-index: 2;
+      
+   }
+
+   //logo
+   .logo{
+      font-family: $heading-font-family;
+      font-size: map_get($font-size, heading3);
+      font-weight: map-get($font-weight, 700);
+      text-decoration: none;
+      color: $white-color;
+
+      span{
+         color: $orange-color;
+      }
+      
+   }
+
+   //search-bar
+   .search{
+      width: 300px;
+      padding: 8px 16px;
+      border: solid $white-color 1px;
+      border-radius: 50px; 
+      position: relative;
+      left: -10%;
+      background-color: transparent;
+   }
+
+   ::placeholder{
+      color: $white-color;
+      font-family: $text-font-family;
+      padding-left: 20px;
+   }
+
+   //navbar
+   .navbar{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+      z-index: 3;
+
+      li{
+         list-style: none;
+         padding: 0 20px;
+
+         a{
+            text-decoration: none;
+            color: $white-color;
+            font-weight: map-get($font-weight , 600 );
+            font-family: $text-font-family;
+            position: relative;
+         }
+
+         a:after{
+            content: "";
+            position: absolute;
+            background-color: $white-color;
+            height: 1px;
+            width: 0;
+            left: 0;
+            bottom: -6px;
+            transition: 0.3s;
+         }
+
+         a:hover:after{
+            width: 100%;
+         }
+
+         .button{
+            padding: 8px 24px;
+            justify-content: center;
+            align-items: center;
+            background-color: $orange-color;
+            border: none;
+            color: $white-color;
+            font-size: map-get($font-size, text2 );
+            font-weight: map-get($font-weight , 700 );
+            border-radius: 10px;
+         }
+      }
+   }
+}*/
